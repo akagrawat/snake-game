@@ -1,15 +1,37 @@
 <html>
+
 <head>
   <meta charset="utf-8" />
-  <title>Reverse geocoding</title>
+  <title>Snake Game</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="assets/css//style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  </head>
-  <body>
-  
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="header">
+      <span>
+        <img src="assets/image/s1.png" width="100px" alt="snake">
+      </span>
+      <p>Snake World</p>
+
+    </div>
+
+    <div id="canvas"></div>
+    <div class="button">
+      <button onclick="restart()">Start Game</button>
+    </div>
+
+  </div>
+
   <script src="assets/js/main.js"></script>
   <script src="assets/js/sketch.js"></script>
-  
-  </body>
+
+
+</body>
+
 </html>
