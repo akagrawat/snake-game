@@ -1,11 +1,12 @@
 let resolution = 20;
 let food;
+let snakeLen = 0;
 
 class Snake {
     constructor() {
         this.snakeBox = [];
         this.snakeBox[0] = createVector(0, 0);
-        this.snakeLen = 0;
+        
         this.xdir = 1;
         this.ydir = 0;
     }
@@ -28,7 +29,7 @@ class Snake {
     }
 
     grow(pos) {
-        this.snakeLen++;
+        snakeLen++;
         this.snakeBox.push(pos);
     }
 

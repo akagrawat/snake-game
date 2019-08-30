@@ -32,7 +32,7 @@ function draw() {
     text('End Game', 6, 10);
     fill(255);
     textSize(1);
-    text('Your score:' + " " + length, 6.5, 11.5);
+    text('Your score:' + " " + snakeLen*5, 6.5, 11.5);
     noLoop();
   }
   fill(255, 0, 0);
